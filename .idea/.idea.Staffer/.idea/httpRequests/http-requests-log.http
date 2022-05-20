@@ -1,0 +1,26 @@
+﻿GET https://localhost:7164/staffers
+
+Accept: application/json
+
+###
+
+GET https://localhost:7164/staffers
+
+Accept: application/json
+
+###
+
+GET https://localhost:7164/staffers
+
+Accept: application/json
+
+###
+
+GET https://localhost:7164/staffers
+
+Accept: application/json
+
+<> 2022-05-20T190914.200.json
+
+###
+
