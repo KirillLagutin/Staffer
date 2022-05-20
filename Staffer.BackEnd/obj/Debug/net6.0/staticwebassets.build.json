@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "ulh7wCtUI0oOQ5de6y+HKMfu919zD0Pphac6erEDbDY=",
+  "Hash": "TPTw0UVjJ5DlZSU2P1UB+nAb6xKUJFq0Cj9NMqode1w=",
   "Source": "Staffer.BackEnd",
   "BasePath": "_content/Staffer.BackEnd",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Staffer.BackEnd\\wwwroot",
+      "Source": "Staffer.BackEnd",
+      "ContentRoot": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\wwwroot\\",
+      "BasePath": "_content/Staffer.BackEnd",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\wwwroot\\index.html",
+      "SourceId": "Staffer.BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\wwwroot\\",
+      "BasePath": "_content/Staffer.BackEnd",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\wwwroot\\staffers.js",
+      "SourceId": "Staffer.BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\wwwroot\\",
+      "BasePath": "_content/Staffer.BackEnd",
+      "RelativePath": "staffers.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\staffers.js"
+    }
+  ]
 }
