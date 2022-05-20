@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staffer.BackEnd", "Staffer.BackEnd\Staffer.BackEnd.csproj", "{1B6045D0-7AF0-4C0C-870B-A39FE661F2AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staffer.Test", "Staffer.Test\Staffer.Test.csproj", "{1F20A693-BC73-4196-A784-5CE3D43CB1C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B6045D0-7AF0-4C0C-870B-A39FE661F2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6045D0-7AF0-4C0C-870B-A39FE661F2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6045D0-7AF0-4C0C-870B-A39FE661F2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6045D0-7AF0-4C0C-870B-A39FE661F2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F20A693-BC73-4196-A784-5CE3D43CB1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F20A693-BC73-4196-A784-5CE3D43CB1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F20A693-BC73-4196-A784-5CE3D43CB1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F20A693-BC73-4196-A784-5CE3D43CB1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
