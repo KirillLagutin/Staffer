@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Staffer.BackEnd;
+using Staffer.Lib;
 using Xunit;
 
 namespace Staffer.Test;
@@ -11,7 +11,7 @@ public class DbTest
     [Fact]
     public void GetALLStafers_Test()
     {
-        var expectedStaffers = new List<BackEnd.Staffer>
+        var expectedStaffers = new List<Lib.Staffer>
         {
             new ()
             {

@@ -22,7 +22,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Staffer.BackEnd\Staffer.BackEnd.csproj" />
+      <ProjectReference Include="..\Staffer.Lib\Staffer.Lib.csproj" />
     </ItemGroup>
-
 </Project>

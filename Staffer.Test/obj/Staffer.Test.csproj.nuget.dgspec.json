@@ -4,14 +4,14 @@
     "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.Test\\Staffer.Test.csproj": {}
   },
   "projects": {
-    "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\Staffer.BackEnd.csproj": {
+    "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.Lib\\Staffer.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\Staffer.BackEnd.csproj",
-        "projectName": "Staffer.BackEnd",
-        "projectPath": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\Staffer.BackEnd.csproj",
+        "projectUniqueName": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.Lib\\Staffer.Lib.csproj",
+        "projectName": "Staffer.Lib",
+        "projectPath": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.Lib\\Staffer.Lib.csproj",
         "packagesPath": "C:\\Users\\Kirill\\.nuget\\packages\\",
-        "outputPath": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\obj\\",
+        "outputPath": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kirill\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,10 +47,6 @@
             "Microsoft.Data.Sqlite": {
               "target": "Package",
               "version": "[6.0.5, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -64,9 +60,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -99,8 +92,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\Staffer.BackEnd.csproj": {
-                "projectPath": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.BackEnd\\Staffer.BackEnd.csproj"
+              "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.Lib\\Staffer.Lib.csproj": {
+                "projectPath": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.Lib\\Staffer.Lib.csproj"
               }
             }
           }

@@ -224,6 +224,20 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "Staffer.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "Microsoft.Data.Sqlite": "6.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Staffer.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Staffer.Lib.dll": {}
+        }
       }
     }
   },
@@ -494,12 +508,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Staffer.Lib/1.0.0": {
+      "type": "project",
+      "path": "../Staffer.Lib/Staffer.Lib.csproj",
+      "msbuildProject": "../Staffer.Lib/Staffer.Lib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Dapper >= 2.0.123",
-      "Microsoft.Data.Sqlite >= 6.0.5",
+      "Staffer.Lib >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -529,7 +547,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.Lib\\Staffer.Lib.csproj": {
+              "projectPath": "D:\\!Desktop\\Step\\C#\\Projects\\ASP\\Staffer\\Staffer.Lib\\Staffer.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -542,14 +564,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Dapper": {
-            "target": "Package",
-            "version": "[2.0.123, )"
-          },
-          "Microsoft.Data.Sqlite": {
-            "target": "Package",
-            "version": "[6.0.5, )"
-          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"

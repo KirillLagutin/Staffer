@@ -1,7 +1,7 @@
 ﻿using Dapper;
 using Microsoft.Data.Sqlite;
 
-namespace Staffer.BackEnd;
+namespace Staffer.Lib;
 
 public static class DB
 {

@@ -1,4 +1,4 @@
-﻿namespace Staffer.BackEnd;
+﻿namespace Staffer.Lib;
 
 public record Staffer
 {

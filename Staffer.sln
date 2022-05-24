@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staffer.BackEnd", "Staffer.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staffer.Test", "Staffer.Test\Staffer.Test.csproj", "{1F20A693-BC73-4196-A784-5CE3D43CB1C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staffer.Desktop", "Staffer.Desktop\Staffer.Desktop.csproj", "{6E885A86-0FE1-4D10-8BAE-0A350D185E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staffer.Lib", "Staffer.Lib\Staffer.Lib.csproj", "{B230B982-B13B-4D0A-9FCC-E1CA6BB4A0C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{1F20A693-BC73-4196-A784-5CE3D43CB1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F20A693-BC73-4196-A784-5CE3D43CB1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F20A693-BC73-4196-A784-5CE3D43CB1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E885A86-0FE1-4D10-8BAE-0A350D185E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E885A86-0FE1-4D10-8BAE-0A350D185E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E885A86-0FE1-4D10-8BAE-0A350D185E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E885A86-0FE1-4D10-8BAE-0A350D185E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B230B982-B13B-4D0A-9FCC-E1CA6BB4A0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B230B982-B13B-4D0A-9FCC-E1CA6BB4A0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B230B982-B13B-4D0A-9FCC-E1CA6BB4A0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B230B982-B13B-4D0A-9FCC-E1CA6BB4A0C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
