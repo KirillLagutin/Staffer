@@ -6,10 +6,20 @@
     <projectFile profileName="IIS Express">Staffer.BackEnd/Staffer.BackEnd.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d945a4-e795-42e8-8879-b7d31c8f1195" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Staffer/.idea/dataSources.local.xml" beforeDir="false" />
+    <list default="true" id="f6d945a4-e795-42e8-8879-b7d31c8f1195" name="Changes" comment="Add Desktop">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Staffer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Staffer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Staffer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/bin/Debug/net6.0/Staffer.BackEnd.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/bin/Debug/net6.0/Staffer.BackEnd.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/bin/Debug/net6.0/Staffer.BackEnd.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/bin/Debug/net6.0/Staffer.BackEnd.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/bin/Debug/net6.0/Staffer.BackEnd.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/bin/Debug/net6.0/Staffer.BackEnd.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/bin/Debug/net6.0/ref/Staffer.BackEnd.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/bin/Debug/net6.0/ref/Staffer.BackEnd.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/Staffer.BackEnd.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/ref/Staffer.BackEnd.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/obj/Debug/net6.0/ref/Staffer.BackEnd.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.BackEnd/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.BackEnd/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staffer.Lib/Staffer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Staffer.Lib/Staffer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +33,10 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f324c62785677b53e916aa9084ae54a42014c79d132908ae191cf8e3af4cfb/File.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -104,7 +118,7 @@
       <workItem from="1652802239918" duration="8125000" />
       <workItem from="1653061320041" duration="9308000" />
       <workItem from="1653077099570" duration="832000" />
-      <workItem from="1653406441230" duration="755000" />
+      <workItem from="1653406441230" duration="7063000" />
     </task>
     <task id="LOCAL-00001" summary="Init www">
       <created>1653077205004</created>
@@ -120,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653077316897</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Desktop">
+      <created>1653407805325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653407805326</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +165,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init www" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Add Desktop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Desktop" />
   </component>
 </project>

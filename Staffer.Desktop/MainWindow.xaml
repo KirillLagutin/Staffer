@@ -1,0 +1,32 @@
+﻿<Window x:Class="Staffer.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Staffer.Desktop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+   
+    <StackPanel>
+        <DataGrid x:Name="TaleStaffers"
+                  ItemsSource="{Binding Staffers}"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="#" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding FirstName}"/>
+                <DataGridTemplateColumn Header="Дата рождения">
+                   <DataGridTemplateColumn.CellTemplate>
+                       <DataTemplate>
+                           <!--<TextBlock Text="{Binding DateOfBirth, StringFormat=\{0:dd.MM.yyyy\}}"></TextBlock>-->
+                           <DatePicker SelectedDate="{Binding DateOfBirth}"></DatePicker>
+                       </DataTemplate>
+                   </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Отдел" Binding="{Binding Department}"/>
+                <DataGridTextColumn Header="Должность" Binding="{Binding Position}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</Window>

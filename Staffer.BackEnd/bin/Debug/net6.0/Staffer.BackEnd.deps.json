@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Staffer.BackEnd/1.0.0": {
         "dependencies": {
-          "Dapper": "2.0.123",
-          "Microsoft.Data.Sqlite": "6.0.5",
+          "Staffer.Lib": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -202,7 +201,16 @@
           }
         }
       },
-      "System.Memory/4.5.3": {}
+      "System.Memory/4.5.3": {},
+      "Staffer.Lib/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "Microsoft.Data.Sqlite": "6.0.5"
+        },
+        "runtime": {
+          "Staffer.Lib.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -308,6 +316,11 @@
       "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "Staffer.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

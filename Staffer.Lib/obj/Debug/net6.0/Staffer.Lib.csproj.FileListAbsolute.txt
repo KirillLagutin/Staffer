@@ -1,0 +1,12 @@
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\bin\Debug\net6.0\Staffer.Lib.deps.json
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\bin\Debug\net6.0\Staffer.Lib.dll
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\bin\Debug\net6.0\ref\Staffer.Lib.dll
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\bin\Debug\net6.0\Staffer.Lib.pdb
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\obj\Debug\net6.0\Staffer.Lib.csproj.AssemblyReference.cache
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\obj\Debug\net6.0\Staffer.Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\obj\Debug\net6.0\Staffer.Lib.AssemblyInfoInputs.cache
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\obj\Debug\net6.0\Staffer.Lib.AssemblyInfo.cs
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\obj\Debug\net6.0\Staffer.Lib.csproj.CoreCompileInputs.cache
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\obj\Debug\net6.0\Staffer.Lib.dll
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\obj\Debug\net6.0\ref\Staffer.Lib.dll
+D:\!Desktop\Step\C#\Projects\ASP\Staffer\Staffer.Lib\obj\Debug\net6.0\Staffer.Lib.pdb
